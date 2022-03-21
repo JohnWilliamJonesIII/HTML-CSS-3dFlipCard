@@ -2,5 +2,5 @@
 
 A 3-Dimensional card built with HTML and CSS, one side will show my portrait, the other will show links to my social media.
 
-<img src="https://i.imgur.com/2zpdPSv.gif[" width="1200" height="600" />
+<img src="https://i.imgur.com/2zpdPSv.gif[" width="800" height="400" />
 
