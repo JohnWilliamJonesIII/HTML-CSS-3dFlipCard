@@ -3,4 +3,4 @@
 A 3-Dimensional card built with HTML and CSS, one side will show my portrait, the other will show links to my social media.
 
 
-![Alt Text](https://imgur.com/a/eLWqIrl)
+![Alt Text](https://imgur.com/2zpdPSv)
