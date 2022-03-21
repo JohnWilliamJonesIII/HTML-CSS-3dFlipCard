@@ -35,6 +35,8 @@ body {
   height: 100%;
   width: 100%;
   text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 1s;
 }
 
 .front-side {
@@ -64,6 +66,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transform: rotateY(180deg);
+
 }
 
 .back-side h1 {
@@ -77,3 +81,27 @@ body {
   font-weight: 300;
   margin-bottom: 30px;
 }
+
+.social-media i {
+  color: #fff;
+  background-color: #6c00e0;
+  font-size: 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.back-side button {
+  margin-top: 60px;
+  background-color: #fff;
+  color: #3e007f;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(-180deg);
