@@ -13,3 +13,22 @@
   align-items: center;
   justify-content: center;
 }
+
+.portrait {
+  width: 370px;
+  height: 470px;
+}
+
+.card {
+  width: 370px;
+  height: 470px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.card-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
