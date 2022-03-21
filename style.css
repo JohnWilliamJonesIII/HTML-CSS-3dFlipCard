@@ -1,8 +1,12 @@
+body {
+  font-family: "juralight";
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Eurostile";
+  font-family: "Jura";
 }
 
 .container {
@@ -60,4 +64,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.back-side h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.back-side p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 30px;
 }
